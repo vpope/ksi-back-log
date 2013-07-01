@@ -1,0 +1,61 @@
+ #navigation
+   {
+   height:75px;
+   }
+
+   #utility
+   {
+   height:75px;
+   }
+
+   ul 
+   {
+   font-family: Arial, Verdana;
+   margin: 0;
+   padding: 0;
+   }
+   ul li 
+   {
+   display: block;
+   position: relative;
+   float: left;
+   font-size:16px;
+   }
+
+   li ul { display: none; }
+
+   #navigation ul
+   {margin:0px; padding:0px;}
+
+
+   ul li a 
+   {
+   display:block;
+   text-decoration: none;
+   color: white;
+   padding: 20px 30px 20px 15px;
+   position:relative;
+   margin: 0;
+
+   }
+
+   ul li a:hover 
+   { 
+   background: #355F9E;
+   }
+
+   li:hover ul 
+   {
+   display: block;
+   position: absolute;
+   }
+
+   li:hover a 
+   { 
+   background: #355F9E; 
+   }
+
+   li:hover li a:hover 
+   { 
+   background: #BCCDD8;
+   }

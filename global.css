@@ -1,0 +1,69 @@
+#pagebody { position: inherit !important; width: 100%; } 
+#pagebody-inner { position: inherit !important; width: 100%; } 
+
+#alpha, #beta, #gamma, #delta {
+    display: inline; 
+    position: inherit !important; 
+    float: left; 
+    min-height: 1px; 
+}
+
+#centernav {
+  width: 900px; /* if you want your nav centered, set this to the width of your container, if you don't want it centered, change this number to 100% */
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#dropnav {
+height:25px; 
+ background:#999;
+} /* Changes the height and bg color of the main menu */
+
+#dropnav ul {
+margin:0px; 
+ padding:0px;
+}
+
+#dropnav ul li {
+display:inline; 
+ float:left; 
+ list-style:none; 
+ margin-left:15px; 
+ position:relative; 
+ height:25px; 
+ width: 150px;}
+
+#dropnav li a {
+ color:#FFF; 
+ text-decoration:none;
+}
+
+#dropnav li a:hover
+{color:#900; text-decoration:none;}
+
+#dropnav li ul
+{margin:0px; 
+ padding:0px; 
+ display:none;
+ position:absolute; 
+ left:0px;
+ z-index: 99; top:25px; background-color:#CCC;} 
+
+#dropnav li:hover ul
+{display:block; width:150px;} 
+
+#dropnav li li
+{list-style:none; display:list-item;} 
+
+#dropnav li li a
+{color:#000; text-decoration:none;}
+
+#dropnav li li a:hover {
+    color:#900; 
+    text-decoration:none;
+} 
+
+li#main  {
+    padding-top: 4px;
+}
+
