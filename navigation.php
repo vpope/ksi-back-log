@@ -12,43 +12,40 @@
             </li>
 
             <li id="main">
-            <a href="#">Your Info</a>
+            <a href="yourinfo.php">Your Info</a>
                 <ul id="subnav">
-                      <li><a href="#">sub menu item 1</a></li>
-                      <li><a href="#">sub menu item 2</a></li>
-                      <li><a href="#">sub menu item 3</a></li>
-                      <li><a href="#">sub menu item 4</a></li>
+                
                 </ul>            
             </li>
 
             <li id="main">
             <a href="search-member.php">Search Member</a>
                 <ul id="subnav">
-                      <li><a href="#">sub menu item 1</a></li>
-                      <li><a href="#">sub menu item 2</a></li>
-                      <li><a href="#">sub menu item 3</a></li>
-                      <li><a href="#">sub menu item 4</a></li>
+                      <li><a href="#">Promote</a></li>
+                      <li><a href="#">Demote</a></li>
+                      <li><a href="#">Add a member</a></li>
+                      <li><a href="#">Major/Minor Offenses</a></li>
+                      <li><a href="#">Release Date</a></li>
                 </ul>            
             </li>
 
             <li id="main">
-            <a href="#">Tranfer Request</a>
+            <a href="transfers.php">Transfer Request</a>
 
                 <ul id="subnav">
-                      <li><a href="#">sub menu item 1</a></li>
-                      <li><a href="#">sub menu item 2</a></li>
-                      <li><a href="#">sub menu item 3</a></li>
-                      <li><a href="#">sub menu item 4</a></li>
+                      <li><a href="#">Process</a></li>
+                      <li><a href="#">Requirements</a></li>
+                      <li><a href="transfers.php">Form</a></li>
+                      
                 </ul>            
             </li>
             <li id="main">
             <a href="#">Media</a>
 
                 <ul id="subnav">
-                      <li><a href="#">sub menu item 1</a></li>
-                      <li><a href="#">sub menu item 2</a></li>
-                      <li><a href="#">sub menu item 3</a></li>
-                      <li><a href="#">sub menu item 4</a></li>
+                      <li><a href="#">Videos</a></li>
+                      <li><a href="#">Pictures</a></li>
+
                 </ul>            
             </li>
 

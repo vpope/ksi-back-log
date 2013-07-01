@@ -9,7 +9,7 @@
         <?php include "navigation.php"; ?>
         <form><br /><br />
             User Name:<input type="text" /><br />
-            Password:<input type="password" name="password" /><br />
+            Password: <input type="password" name="password" /><br />
             <input type="Submit" value="Submit" /><br />
         </form>
     </body>
