@@ -66,4 +66,6 @@ display:inline;
 li#main  {
     padding-top: 4px;
 }
-
+body{  
+   text-align:left;
+}  

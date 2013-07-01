@@ -21,8 +21,8 @@
             <li id="main">
             <a href="search-member.php">Search Member</a>
                 <ul id="subnav">
-                      <li><a href="#">Promote</a></li>
-                      <li><a href="#">Demote</a></li>
+                      <li><a href="promote.php">Promote</a></li>
+                      <li><a href="demote.php">Demote</a></li>
                       <li><a href="#">Add a member</a></li>
                       <li><a href="#">Major/Minor Offenses</a></li>
                       <li><a href="#">Release Date</a></li>
