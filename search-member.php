@@ -4,6 +4,7 @@
     <body> 
         <?php include "navigation.php"; ?>
         <br /><br />
+        <div class="wrapper">
         <p>
             Here you can look up a member and see what division, rank, squad,and much more about that member.
         </p>
@@ -14,5 +15,6 @@
             <input type="hidden" name="search" value="1" /> 
             <input type="Submit" value="Submit" /><br />
         </form>
+        </div>
     </body>
 </html>

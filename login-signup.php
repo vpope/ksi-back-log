@@ -7,10 +7,12 @@
     </head>
     <body>
         <?php include "navigation.php"; ?>
+        <div class="wrapper">
         <form><br /><br />
             User Name:<input type="text" /><br />
             Password: <input type="password" name="password" /><br />
             <input type="Submit" value="Submit" /><br />
         </form>
+        </div>
     </body>
 </html>

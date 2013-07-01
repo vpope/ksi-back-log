@@ -9,7 +9,7 @@
 }
 
 #centernav {
-  width: 900px; /* if you want your nav centered, set this to the width of your container, if you don't want it centered, change this number to 100% */
+  width: 900px; 
   margin-left: auto ;
   margin-right: auto ;
 }
@@ -17,7 +17,7 @@
 #dropnav {
 height:25px; 
  background:#999;
-} /* Changes the height and bg color of the main menu */
+}
 
 #dropnav ul {
 margin:0px; 
@@ -66,6 +66,11 @@ display:inline;
 li#main  {
     padding-top: 4px;
 }
-body{  
-   text-align:left;
-}  
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+} 
+body {
+    background-color: #a7d6d5;
+    text-decoration-color: white;
+}

@@ -23,7 +23,7 @@
                 <ul id="subnav">
                       <li><a href="promote.php">Promote</a></li>
                       <li><a href="demote.php">Demote</a></li>
-                      <li><a href="#">Add a member</a></li>
+                      <li><a href="add-a-member.php">Add a Member</a></li>
                       <li><a href="#">Major/Minor Offenses</a></li>
                       <li><a href="#">Release Date</a></li>
                 </ul>            

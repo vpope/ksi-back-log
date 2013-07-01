@@ -3,6 +3,7 @@
     <head><link rel="stylesheet" href="global.css" type="text/css"></head>
     <body>
         <?php include "navigation.php"; ?><br /><br />
+        <div class="wrapper">
         <form action="">
             <fieldset>
     <legend>Your KSI Gamer Tag:</legend>
@@ -13,5 +14,6 @@
     <input type="Submit" value="Submit" /><br />
             </fieldset>
         </form>
+        </div>
 </body>
 </html>
