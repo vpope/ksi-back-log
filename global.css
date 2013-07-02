@@ -67,8 +67,10 @@ li#main  {
     padding-top: 4px;
 }
 .wrapper {
-    width: 900px;
-    margin: 0 auto;
+    width: 860px;
+    margin: 30px auto 0 auto;
+    background-color: white;
+    padding: 20px;
 } 
 body {
     background-color: #a7d6d5;

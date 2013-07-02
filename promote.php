@@ -5,7 +5,7 @@
     </head>
     <body>
         <?php include "navigation.php"; ?>
-        <br /><br/>
+        
         <div class="wrapper">
         Their Gamertag:       <input type="text" name="Their Gamertag" /><br />
         Date:    <input type="text" name="Date" /><br />

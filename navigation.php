@@ -24,7 +24,7 @@
                       <li><a href="promote.php">Promote</a></li>
                       <li><a href="demote.php">Demote</a></li>
                       <li><a href="add-a-member.php">Add a Member</a></li>
-                      <li><a href="#">Major/Minor Offenses</a></li>
+                      <li><a href="major-minor-release.php">Major/Minor Offenses</a></li>
                       <li><a href="#">Release Date</a></li>
                 </ul>            
             </li>
@@ -33,8 +33,8 @@
             <a href="transfers.php">Transfer Request</a>
 
                 <ul id="subnav">
-                      <li><a href="#">Process</a></li>
-                      <li><a href="#">Requirements</a></li>
+                      <li><a href="process.php">Process</a></li>
+                      <li><a href="requirements.php">Requirements</a></li>
                       <li><a href="transfers.php">Form</a></li>
                       
                 </ul>            
@@ -43,8 +43,8 @@
             <a href="#">Media</a>
 
                 <ul id="subnav">
-                      <li><a href="#">Videos</a></li>
-                      <li><a href="#">Pictures</a></li>
+                      <li><a href="videos.php">Videos</a></li>
+                      <li><a href="pictures.php">Pictures</a></li>
 
                 </ul>            
             </li>
