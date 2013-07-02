@@ -9,70 +9,109 @@
 }
 
 #centernav {
-  width: 900px; 
-  margin-left: auto ;
-  margin-right: auto ;
+    width: 900px; 
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
-#dropnav {
-height:25px; 
- background:#999;
+#dropnav > ul {
+    margin:0px; 
+    
+    overflow: hidden;
+    border-radius: 5px;
+    
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #4A4A4A 0%, #000000 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #4A4A4A 0%, #000000 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #4A4A4A 0%, #000000 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4A4A4A), color-stop(1, #000000));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #4A4A4A 0%, #000000 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #4A4A4A 0%, #000000 100%);
 }
 
-#dropnav ul {
-margin:0px; 
- padding:0px;
+#dropnav > ul > li {
+    float:left; 
+    list-style:none;  
+    margin-right: 15px;
 }
-
-#dropnav ul li {
-display:inline; 
- float:left; 
- list-style:none; 
- margin-left:15px; 
- position:relative; 
- height:25px; 
- width: 150px;}
 
 #dropnav li a {
- color:#FFF; 
- text-decoration:none;
+    color:#fff; 
+    text-decoration:none;
+    text-shadow: 0 -1px #000;
+    display: block;
+    padding: 5px 10px;
+}
+
+#dropnav > ul > li > a {
+    line-height: 30px;
 }
 
 #dropnav li a:hover
-{color:#900; text-decoration:none;}
+{color:#D95959; text-decoration:none;}
 
-#dropnav li ul
-{margin:0px; 
- padding:0px; 
- display:none;
- position:absolute; 
- left:0px;
- z-index: 99; top:25px; background-color:#CCC;} 
-
-#dropnav li:hover ul
-{display:block; width:150px;} 
-
-#dropnav li li
-{list-style:none; display:list-item;} 
-
-#dropnav li li a
-{color:#000; text-decoration:none;}
-
-#dropnav li li a:hover {
-    color:#900; 
-    text-decoration:none;
+#dropnav li ul {
+    padding:0px; 
+    display:none;
+    position:absolute;
+    z-index: 99;
+    background-color: #333;
+    border-radius: 0 0 5px 5px;
+    border: solid 1px #000;
+    border-top: 0;
+    padding-bottom: 5px;
 } 
 
-li#main  {
-    padding-top: 4px;
+#dropnav li:hover ul
+{display:block;} 
+
+#dropnav li li
+{list-style:none; display: block} 
+
+#dropnav li li a {
+    color:#fff; 
+    text-decoration:none;
+    text-shadow: 0 1px #000;
+    font-size: 12px;
 }
 .wrapper {
     width: 860px;
     margin: 30px auto 0 auto;
     background-color: white;
     padding: 20px;
+    border-radius: 5px;
+    border: solid 1px #999;
 } 
 body {
-    background-color: #a7d6d5;
-    text-decoration-color: white;
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(right, #FFFFFF 0%, #B5B5B5 50%, #EFEFEF 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(right, #FFFFFF 0%, #B5B5B5 50%, #EFEFEF 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(right, #FFFFFF 0%, #B5B5B5 50%, #EFEFEF 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #FFFFFF), color-stop(0.5, #B5B5B5), color-stop(1, #EFEFEF));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(right, #FFFFFF 0%, #B5B5B5 50%, #EFEFEF 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to left, #FFFFFF 0%, #B5B5B5 50%, #EFEFEF 100%);
 }
