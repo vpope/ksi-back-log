@@ -21,8 +21,8 @@
                       <li><a href="promote.php">Promote</a></li>
                       <li><a href="demote.php">Demote</a></li>
                       <li><a href="add-a-member.php">Add a Member</a></li>
-                      <li><a href="major-minor-release.php">Major/Minor Offenses</a></li>
-                      <li><a href="#">Release Date</a></li>
+                      <li><a href="major-minor.php">Major/Minor Offenses</a></li>
+                      <li><a href="release.php">Release Date</a></li>
                 </ul>            
             </li>
 
